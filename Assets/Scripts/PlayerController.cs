@@ -1,9 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public Transform attackPosition;
+
     private float _speed = 2.0f;
     private float _jumpHeight = 300.0f;
 
@@ -34,17 +37,19 @@ public class PlayerController : MonoBehaviour
         var isMoving = right | left | up | down;
 
         _animator.SetBool("isMoving", isMoving);
-
+        
         if (right)
         {
             _spriteRenderer.flipX = false;
             transform.position += Vector3.right * _speed * Time.deltaTime;
+            attackPosition.position = new Vector3(transform.position.x + 1, transform.position.y);
         }
 
         if (left)
         {
             _spriteRenderer.flipX = true;
             transform.position += Vector3.left * _speed * Time.deltaTime;
+            attackPosition.position = new Vector3(transform.position.x - 1, transform.position.y);
         }
 
         if(Input.GetButtonDown("Jump") && _isGrounded)

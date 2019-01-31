@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    private float timeBetweenAttack;
+    private float timeBetweenAttack = 0;
     public float startTimeAttack;
 
     public LayerMask enemyLayer;
@@ -20,12 +20,19 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(timeBetweenAttack <= 0)
+        Debug.Log($"pos: {attackPosition.position.x}");
+
+        if (timeBetweenAttack <= 0)
         {
             if(Input.GetButtonDown("Fire1"))
             {
                 Collider2D[] enemies = Physics2D.OverlapCircleAll(attackPosition.position, attackRange, enemyLayer);
+                Debug.Log($"enemies {enemies.Length}");
                 // fazer código de damage
+                foreach (var enemy in enemies)
+                {
+                    enemy.GetComponent<Enemy>().ReceiveDamange();
+                }
             }
 
             timeBetweenAttack = startTimeAttack;
