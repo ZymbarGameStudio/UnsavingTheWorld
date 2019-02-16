@@ -20,8 +20,6 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log($"pos: {attackPosition.position.x}");
-
         if (timeBetweenAttack <= 0)
         {
             if(Input.GetButtonDown("Fire1"))

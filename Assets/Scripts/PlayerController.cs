@@ -64,8 +64,11 @@ public class PlayerController : MonoBehaviour
     {
         if (col.gameObject.name == "Ground")
         {
-            _isGrounded = true;
-            _animator.SetBool("isGrounded", _isGrounded);
+            if(!_isGrounded)
+            {
+                _isGrounded = true;
+                _animator.SetBool("isGrounded", _isGrounded);
+            }
         }
     }
 }
