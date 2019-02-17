@@ -1,12 +1,9 @@
 fileFormatVersion: 2
-guid: 47e1fc2d03bca5543bf7142743207000
+guid: 8bcd3a92825fad840ae01adab92be196
 TextureImporter:
   fileIDToRecycleName:
-    21300000: sheet_hero_stab_0
-    21300002: sheet_hero_stab_1
-    21300004: sheet_hero_stab_2
-    21300006: sheet_hero_stab_3
-    21300008: sheet_hero_stab_4
+    21300000: sheet_snake_hurt_0
+    21300002: sheet_snake_hurt_1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -85,110 +82,17 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sheet_hero_stab_0
+      name: sheet_snake_hurt_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 0
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c0ff66eeb03b8f4b9d58d921b0ed873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_stab_1
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 0
-        width: 41
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e244d3fe213923c4fb4ad77642c924df
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_stab_2
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 0
-        width: 40
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75f463c9d744eef40b784af5029d62c5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_stab_3
-      rect:
-        serializedVersion: 2
-        x: 214
+        x: 21
         y: 0
         width: 24
-        height: 29
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,19 +100,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b567d6cbb632f9845b34352ccf7473d0
+      spriteID: 7d606369ec7cc3a49b92f4e69021cd79
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheet_hero_stab_4
+      name: sheet_snake_hurt_1
       rect:
         serializedVersion: 2
-        x: 273
+        x: 85
         y: 0
-        width: 27
-        height: 30
+        width: 24
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,7 +120,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cb77544d0bd6fd4c83d63eec8f99b90
+      spriteID: 8a415910853155f448f7f395d8260f67
       vertices: []
       indices: 
       edges: []
@@ -224,7 +128,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0d36a2d0ab62c76439c8ae27e1593a9b
+    spriteID: 51fc54fb8053c7e4b83818542899e454
     vertices: []
     indices: 
     edges: []

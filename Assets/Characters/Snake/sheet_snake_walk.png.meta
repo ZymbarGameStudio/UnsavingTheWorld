@@ -1,12 +1,14 @@
 fileFormatVersion: 2
-guid: 47e1fc2d03bca5543bf7142743207000
+guid: 609f66c80be709e44b579d953286f9b3
 TextureImporter:
   fileIDToRecycleName:
-    21300000: sheet_hero_stab_0
-    21300002: sheet_hero_stab_1
-    21300004: sheet_hero_stab_2
-    21300006: sheet_hero_stab_3
-    21300008: sheet_hero_stab_4
+    21300000: sheet_snake_walk_0
+    21300002: sheet_snake_walk_1
+    21300004: sheet_snake_walk_2
+    21300006: sheet_snake_walk_3
+    21300008: sheet_snake_walk_4
+    21300010: sheet_snake_walk_5
+    21300012: sheet_snake_walk_6
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -85,50 +87,17 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sheet_hero_stab_0
+      name: sheet_snake_walk_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 19
         y: 0
-        width: 33
-        height: 33
+        width: 26
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,19 +105,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c0ff66eeb03b8f4b9d58d921b0ed873
+      spriteID: 2db0d5f8963de3d40b6e5dcbbc9c4c35
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheet_hero_stab_1
+      name: sheet_snake_walk_1
       rect:
         serializedVersion: 2
         x: 87
         y: 0
-        width: 41
-        height: 29
+        width: 25
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,19 +125,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e244d3fe213923c4fb4ad77642c924df
+      spriteID: 552d373973fce264f9b38937aa127089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheet_hero_stab_2
+      name: sheet_snake_walk_2
       rect:
         serializedVersion: 2
-        x: 151
+        x: 152
         y: 0
-        width: 40
-        height: 30
+        width: 25
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,19 +145,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75f463c9d744eef40b784af5029d62c5
+      spriteID: 8aa7241e536d46642af22eceda069cd7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheet_hero_stab_3
+      name: sheet_snake_walk_3
       rect:
         serializedVersion: 2
-        x: 214
+        x: 196
         y: 0
-        width: 24
-        height: 29
+        width: 51
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,19 +165,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b567d6cbb632f9845b34352ccf7473d0
+      spriteID: 59b572c0d2e2caa488f8ca0528090cf2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheet_hero_stab_4
+      name: sheet_snake_walk_4
       rect:
         serializedVersion: 2
-        x: 273
+        x: 260
         y: 0
-        width: 27
-        height: 30
+        width: 54
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,7 +185,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cb77544d0bd6fd4c83d63eec8f99b90
+      spriteID: 85c5bc8460955db4683ea6cee9e64195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_snake_walk_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 49
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdbe388122e2ff47a40df271342236e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_snake_walk_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 47
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36eecfd3c80097f4982ea211eabde4b7
       vertices: []
       indices: 
       edges: []
@@ -224,7 +233,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0d36a2d0ab62c76439c8ae27e1593a9b
+    spriteID: 1bd3564f21211264893fb2192068719c
     vertices: []
     indices: 
     edges: []
