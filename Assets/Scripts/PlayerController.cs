@@ -15,9 +15,15 @@ public class PlayerController : MonoBehaviour
     private Animator _animator;
 
     private bool _isGrounded = false;
+
+    public static PlayerController Player { get; private set; }
+
     // Start is called before the first frame update
     void Start()
     {
+        if (Player == null)
+            Player = this;
+
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
