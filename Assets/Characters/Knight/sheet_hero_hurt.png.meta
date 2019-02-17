@@ -1,11 +1,7 @@
 fileFormatVersion: 2
 guid: 0f08b7f4a9e567b408f21191354893d6
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: sheet_hero_hurt_0
-    21300002: sheet_hero_hurt_1
-    21300004: sheet_hero_hurt_2
-    21300006: sheet_hero_hurt_3
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -119,87 +115,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: sheet_hero_hurt_0
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 0
-        width: 28
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a0775ab07afade468bf5baca20c1e18
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_hurt_1
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 0
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed67075232a800648869e3f78e777d75
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_hurt_2
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 0
-        width: 24
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e425366a768d5f648946a0627af2b77b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_hurt_3
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 0
-        width: 23
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aadffa96ad94144498359c2a98425442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []

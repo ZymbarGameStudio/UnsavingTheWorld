@@ -1,12 +1,7 @@
 fileFormatVersion: 2
 guid: 47e1fc2d03bca5543bf7142743207000
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: sheet_hero_stab_0
-    21300002: sheet_hero_stab_1
-    21300004: sheet_hero_stab_2
-    21300006: sheet_hero_stab_3
-    21300008: sheet_hero_stab_4
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -120,107 +115,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: sheet_hero_stab_0
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 0
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c0ff66eeb03b8f4b9d58d921b0ed873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_stab_1
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 0
-        width: 41
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e244d3fe213923c4fb4ad77642c924df
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_stab_2
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 0
-        width: 40
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75f463c9d744eef40b784af5029d62c5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_stab_3
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 0
-        width: 24
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b567d6cbb632f9845b34352ccf7473d0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_stab_4
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 0
-        width: 27
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cb77544d0bd6fd4c83d63eec8f99b90
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
