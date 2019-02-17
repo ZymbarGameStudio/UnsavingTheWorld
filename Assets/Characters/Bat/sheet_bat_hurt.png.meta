@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 0f08b7f4a9e567b408f21191354893d6
+guid: aaddd326a0f933e42b232d5f21972b28
 TextureImporter:
   fileIDToRecycleName:
-    21300000: sheet_hero_hurt_0
-    21300002: sheet_hero_hurt_1
-    21300004: sheet_hero_hurt_2
-    21300006: sheet_hero_hurt_3
+    21300000: sheet_bat_hurt_0
+    21300002: sheet_bat_hurt_1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -84,90 +82,17 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sheet_hero_hurt_0
+      name: sheet_bat_hurt_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 0
-        width: 28
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a0775ab07afade468bf5baca20c1e18
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_hurt_1
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 0
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed67075232a800648869e3f78e777d75
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sheet_hero_hurt_2
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 0
+        x: 5
+        y: 4
         width: 24
-        height: 31
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,19 +100,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e425366a768d5f648946a0627af2b77b
+      spriteID: 6d23aac3b0bba534b8220a192031c7c8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sheet_hero_hurt_3
+      name: sheet_bat_hurt_1
       rect:
         serializedVersion: 2
-        x: 211
-        y: 0
-        width: 23
-        height: 32
+        x: 37
+        y: 5
+        width: 25
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,7 +120,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aadffa96ad94144498359c2a98425442
+      spriteID: 621bde25bcf80214eac256ec50ae1036
       vertices: []
       indices: 
       edges: []
@@ -203,7 +128,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 94c8aeacca321ec458bc648cb8231d65
+    spriteID: ad5cfcf158d365649a9a8e82ce44faf9
     vertices: []
     indices: 
     edges: []
